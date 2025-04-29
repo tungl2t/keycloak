@@ -30,7 +30,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./themes:/opt/keycloak/themes/custom
+      - ./themes:/opt/keycloak/themes
     depends_on:
       - postgres
     networks:
