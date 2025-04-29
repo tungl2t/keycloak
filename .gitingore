@@ -1,0 +1,77 @@
+#IDE
+.idea
+
+# Docker-related files
+docker-compose.override.yml
+*.log
+*.pid
+*.tar
+*.tar.gz
+
+# Docker volumes and data (if any persist locally)
+data/
+postgres_data/
+
+# Keycloak themes build artifacts (if you add build tools later)
+themes/my-theme/*/build/
+themes/my-theme/*/dist/
+themes/my-theme/*/node_modules/
+themes/my-theme/*/package-lock.json
+themes/my-theme/*/yarn.lock
+
+# Sensitive files
+.env
+*.key
+*.pem
+*.cert
+*.jks
+*.keystore
+*.truststore
+secrets/
+
+# Local configuration files
+*.conf
+*.properties.local
+*.yml.local
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Build and runtime artifacts
+target/
+build/
+out/
+*.bak
+*.swp
+*~
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Python-related (if you use scripts for automation)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js-related (if you add frontend tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Miscellaneous
+*.log.*
+*.log-*
+*.tmp
+*.temp
+*.bak.*
